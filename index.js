@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 //early version
+
+// IMPORTANT change the file system, do subprograms for each command
 client.on ('ready', () => {
     console.log(`"Logged in as ${client.user.tag}!`);
 });
